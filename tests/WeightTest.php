@@ -1,9 +1,16 @@
 <?php
 
+namespace iamopk\SpatieWeightConversionsCourse\Tests;
+
 use iamopk\SpatieWeightConversionsCourse\Weight;
 
-it('can convert kilograms to pounds', function () {
-    $pounds = Weight::kilograms(100)->toPounds();
+class WeightTest extends TestCase
+{
+    /** @test */
+    public function it_can_convert_kilograms_to_pounds()
+    {
+        $pounds = Weight::kilograms(100)->toPounds();
 
-    expect($pounds)->toEqual(220.46);
-});
+        $this->assertEquals(220.46, $pounds);
+    }
+}

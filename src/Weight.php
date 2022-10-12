@@ -8,7 +8,9 @@ class Weight
     {
         return new static($kilograms);
     }
-    public function __construct(protected float $kilograms) {
+
+    public function __construct(protected float $kilograms)
+    {
     }
 
     public function toPounds(): float
