@@ -8,8 +8,4 @@ added stones feature
 
 ## first tag - 2022-10-12
 
-stones feature added
-
-## first tag - 2022-10-12
-
 default features
